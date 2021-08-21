@@ -1,4 +1,3 @@
-import link from "next/link";
 import { useEffect } from "react";
 import Link from "next/link";
 import Layout from "../../components/Layout";
