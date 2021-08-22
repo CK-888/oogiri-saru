@@ -66,6 +66,7 @@ export default function Auth() {
 	return (
     <div className="max-w-md md:w-full space-y-8">
       <div>
+        <img className="mx-auto h-24 w-auto" src="/ape_logo_size128.png" alt="ape" />
         <h2 className="mt-6 text-center text-3xl font-sans font-extrabold text-gray-900">
           大喜利のサイト
         </h2>
