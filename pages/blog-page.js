@@ -11,7 +11,7 @@ export default function BlogPage({ filteredPosts }) {
           filteredPosts.map((post) => <Post key={post.id} post={post} />)}
       </ul>
 		<Link href="/main-page">
-			<div className="flex cursor-pointer mt-12">
+			<div className="flex cursor-pointer mt-12 text-gray-900">
 				<svg 
 					className="h-6 w-6 mr-3" 
 					fill="none" 
