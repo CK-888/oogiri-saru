@@ -5,10 +5,12 @@ import Theme from "../components/Theme";
 export default function OogiriMainPage() {
 	return (
 		<Layout title="oogiri-main page">
-			<div className="container">
+			<div className="container absolute top-4">
 				<Theme />
-				<AnswerList />
 			</div>
+			<dev className="container">
+				<AnswerList />
+			</dev>
 		</Layout>
 	);
 }
