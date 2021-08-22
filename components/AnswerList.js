@@ -1,9 +1,9 @@
 
 export default function AnswerList() {
 	return (
-		<div className="h-auto w-auto m-8">
+		<div className="flex h-auto w-auto m-8">
 			{/* 回答本文 */}
-			<div className="bg-red-100">
+			<div className="bg-red-100 w-">
 				aaa
 			</div>
 			{/* いいね */}
