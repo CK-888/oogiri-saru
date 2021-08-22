@@ -3,7 +3,7 @@ export default function AnswerList() {
 	return (
 		<div className="flex h-auto w-auto m-8">
 			{/* 回答本文 */}
-			<div className="bg-red-100 w-">
+			<div className="bg-red-100 w-auto">
 				aaa
 			</div>
 			{/* いいね */}
