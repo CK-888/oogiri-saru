@@ -6,7 +6,7 @@ export default function Layout({children, title = "Default title" }) {
 			<Head>
 				<title>{title}</title>
 			</Head>
-			<main className="flex flex-1 justify-center items-center w-full flex-col">
+			<main className="flex flex-1 justify-center items-center w-auto flex-col">
         		{children}
      		</main>
 		</div>
