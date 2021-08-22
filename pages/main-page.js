@@ -14,17 +14,22 @@ export default function MainPage() {
 	return (
 		<Layout title="Main page">
 			<div className="mb-10">
-        <Link href="/blog-page">
-          <a className="bg-indigo-500 mr-8  hover:bg-indigo-600 text-white px-4 py-12 rounded">
-            Visit Blog by SSG + ISR
-          </a>
-        </Link>
-        <Link href="/task-page">
-          <a className="bg-gray-500 ml-8 hover:bg-gray-600 text-white px-4 py-12 rounded">
-            Visit Task by ISR + CSR
-          </a>
-        </Link>
-      </div>
+        		<Link href="/blog-page">
+					<a className="bg-indigo-500 mr-8  hover:bg-indigo-600 text-white px-4 py-12 rounded">
+						Visit Blog by SSG + ISR
+					</a>
+				</Link>
+				<Link href="/task-page">
+					<a className="bg-gray-500 ml-8 hover:bg-gray-600 text-white px-4 py-12 rounded">
+						Visit Task by ISR + CSR
+					</a>
+				</Link>
+				<Link href="/oogiri-main-page">
+					<a className="bg-green-500 ml-8 hover:bg-green-600 text-white px-4 py-12 rounded">
+						oogirimain
+					</a>
+				</Link>
+			</div>
 
 			<svg 
 				onClick={logout}
