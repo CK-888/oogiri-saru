@@ -29,6 +29,8 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+env.txt
+oogiri-saru-backend-firebase-adminsdk-n8l4x-e933597e5d.json
 
 # vercel
 .vercel
