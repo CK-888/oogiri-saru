@@ -8,7 +8,6 @@ export default function OogiriMainPage() {
 			<div className="container">
 				<Theme />
 				<AnswerList />
-
 			</div>
 		</Layout>
 	);
